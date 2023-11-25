@@ -27,7 +27,6 @@ export default function Data() {
   return (
     <>
       <NavBar />
-      <h1>Quotes Generator</h1>
       <form>
         <label htmlFor="quote" style={{ marginRight: "10px" }}>
           Number of quotes:

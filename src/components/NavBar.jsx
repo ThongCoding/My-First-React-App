@@ -5,18 +5,18 @@ export default function NavBar() {
     <>
       <div className="flex_container">
         <Link className="link" to={"/"}>
-          Home
-        </Link>
-        |
-        <Link className="link" to={"/tic_tac_toe"}>
-          Tic-Tac-Toe
+          Home Page
         </Link>
         |
         <Link className="link" to={"/data_api"}>
           Random Quote Generator
         </Link>
+        |
+        <Link className="link" to={"/tic_tac_toe"}>
+          Tic-Tac-Toe Game
+        </Link>
       </div>
-      <hr />
+      <br></br><br></br>
     </>
   );
 }

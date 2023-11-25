@@ -1,6 +1,7 @@
 body {
     max-height: 100px;
     background-color: #f4cac2;
+    text-align: center;
 }
 
 .flex_container {
