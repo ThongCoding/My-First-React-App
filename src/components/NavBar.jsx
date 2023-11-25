@@ -9,11 +9,11 @@ export default function NavBar() {
         </Link>
         |
         <Link className="link" to={"/tic_tac_toe"}>
-          Play Tic-Tac-Toe
+          Tic-Tac-Toe
         </Link>
         |
         <Link className="link" to={"/data_api"}>
-          Quotes of the Day
+          Random Quote Generator
         </Link>
       </div>
       <hr />

@@ -8,13 +8,12 @@ export default function Data() {
   const [quotes, setQuotes] = useState([]);
 
   // API Source: https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
-  // API #161
   useEffect(() => {
     fetch(`https://api.quotable.io/quotes/random?limit=${numQuotes}`)
       .then((res) => res.json())
       .then((json) => {
-        if (numQuotes > 50) {
-          alert("Maximum quotes allowed: 50");
+        if (numQuotes > 10) {
+          alert("Maximum quotes allowed: 10");
         }
         setIsLoaded(true);
         console.log(json);
@@ -28,10 +27,10 @@ export default function Data() {
   return (
     <>
       <NavBar />
-      <h1>Quotes of the day</h1>
+      <h1>Quotes Generator</h1>
       <form>
         <label htmlFor="quote" style={{ marginRight: "10px" }}>
-          Enter the number of quotes you want to read:
+          Number of quotes:
         </label>
         <input
           name="quote"
@@ -41,7 +40,7 @@ export default function Data() {
           onChange={(e) => setNumQuotes(e.target.value)}
         />
       </form>
-      <small>(Maximum 50 quotes)</small>
+      <small>(Maximum 10 quotes)</small>
       <br />
       <ol>
         {quotes.map((quote) => (

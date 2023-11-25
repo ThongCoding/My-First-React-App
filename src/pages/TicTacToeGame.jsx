@@ -92,7 +92,7 @@ export default function Game() {
     <>
       <NavBar />
       <a href="https://react.dev/learn/tutorial-tic-tac-toe">
-        ---- Check out Tic-Tac-Toe Tutorial in React ----
+        * Detail Tic-Tac-Toe Tutorial *
       </a>
       <br />
       <br />

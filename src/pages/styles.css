@@ -1,6 +1,6 @@
 body {
     max-height: 100px;
-    background-color: #c2f2f4;
+    background-color: #f4cac2;
 }
 
 .flex_container {
@@ -27,7 +27,8 @@ hr {
 a:hover,
 .link:hover {
     color: white;
-    background-color: #348bee;
+    background-color: #ee7e34;
+    border-radius: 8%;
 }
 
 @keyframes fadein {
