@@ -12,7 +12,7 @@
   "name": "tic_tac_toe",
   "description": "Tic Tac Toe game",
   "version": "0.0.0",
-  "homepage": "https://davidgit3000.github.io/React_Intro/",
+  "homepage": "https://thongcoding.github.io/My-First-React-App/",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
